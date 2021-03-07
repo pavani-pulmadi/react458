@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+    *
+    {
+        margin:0px;
+        padding: 0px;
+    }
+    nav
+    {
+      width: 100%;
+      height: 60px;
+      background-color:grey;
+    }
+    nav ul
+    {
+        list-style: none;
+    }
+    nav ul li a
+    {
+        text-decoration: none;
+        color:white;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight:bold;
+    }
+    nav ul li
+    {
+        display: inline;
+        float:left;
+        width:12.5%;
+        text-align: center;
+        line-height: 60px;
+      
+    }
+    nav ul a
+    {
+        display: inline;
+        float:left;
+        width:12.5%;
+        text-align: center;
+        line-height: 60px;
+      
+    }
+
+
+    /*tabs*/
+    @media only screen and (min-width: 320px) and (max-width: 480px)
+    {
+        body
+        {
+          background-color: lightyellow;
+        }
+
+        nav
+         {
+         height: auto;
+        }
+        nav ul li
+        {
+        display: block;
+        float: none;
+        width:100%;
+        text-align: center;
+      
+        }
+    }
+    /*mobiles*/
+    @media only screen and (min-width: 481px) and (max-width: 768px)
+    {
+        body
+        {
+          background-color: lightyellow;
+        }
+     }
+
+</style>
+<body>
+    
+	|<nav>
+        <ul>
+           <li><img src="./images/spy.png"/></li> 
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">signin</a>
+            <a class="nav-link" href="#">signup</a>
+  
+  
+      
+    </ul>
+    </nav>
+</body>
+</html>
